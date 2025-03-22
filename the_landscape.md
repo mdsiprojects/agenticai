@@ -1,13 +1,13 @@
-Both offer playground UI and SDK support 
-OpenAI's Agents SDK and Playground: https://openai.com/index/new-tools-for-building-agents/ 
+Playground UI and SDK support: 
 
-Autogen: https://devblogs.microsoft.com/autogen/autogen-reimagined-launching-autogen-0-4/ 
+- OpenAI's Agents SDK and Playground: https://openai.com/index/new-tools-for-building-agents/ 
+- Autogen: https://devblogs.microsoft.com/autogen/autogen-reimagined-launching-autogen-0-4/ 
 
 
 
-others: 
-n8n https://n8n.io/ai/ : workflows powered with AI Agents 
-crewAI : https://www.crewai.com open source library and enterprise product for building multi agent systems
+Others: 
+- n8n https://n8n.io/ai/ : workflows powered with AI Agents 
+- crewAI : https://www.crewai.com open source library and enterprise product for building multi agent systems
 
 
 
