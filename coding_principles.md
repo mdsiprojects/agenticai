@@ -10,3 +10,7 @@ Learn how to code tools and use prompt libraries, this will be essential in defi
 
 example: researcher agent: https://github.com/Azure-Samples/contoso-creative-writer/blob/main/src/api/agents/researcher/researcher.py 
 
+excercise: https://github.com/Azure-Samples/contoso-creative-writer/blob/main/docs/workshop/workshop-1-intro.ipynb 
+
+
+
