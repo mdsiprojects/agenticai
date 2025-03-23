@@ -26,10 +26,12 @@ Others:
 - n8n https://n8n.io/ai/ : workflows powered with AI Agents
 - crewAI : https://www.crewai.com open source library and enterprise product for building multi agent systems
 
+Samples:
+- Google's Agent Starter Pack: https://github.com/GoogleCloudPlatform/agent-starter-pack
+- Shilpa Jain's Timeseries Forecasting Agent: https://github.com/ShilJain/Azure_AI_Agent_Service_workshop/
 
 
-
-Here’s a comparison between *AutoGen* and *CrewAI*:
+Comparison between *AutoGen* and *CrewAI*:
 - Flexibility vs. User-Friendliness: AutoGen provides more flexibility and control for advanced developers, while CrewAI offers a structured approach suitable for business users.
 - Workflow Suitability: CrewAI is suited for structured, role-based research workflows, whereas AutoGen excels at adaptive, evolving prompts.
 - Dynamic Feedback: AutoGen can self-correct code errors through iterative learning, while CrewAI lacks this dynamic feedback loop.
