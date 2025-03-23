@@ -1,12 +1,29 @@
-Playground UI and SDK support: 
+_An [article](https://blog.context.ai/comparing-leading-multi-agent-frameworks/) from April 18, 2024, provides a detailed comparison of several leading multi-agent frameworks for large language models (LLMs). 🔍
 
-- OpenAI's Agents SDK and Playground: https://openai.com/index/new-tools-for-building-agents/ 
-- Autogen: https://devblogs.microsoft.com/autogen/autogen-reimagined-launching-autogen-0-4/ 
+The review covers five major frameworks:
+
+🚀 **AutoGen**: Praised for its active community and customizable agents, but noted for its complexity and less structured nature.
+
+🧠 **MetaGPT**: Excels in complex agent interactions with a rich library of predefined agents, though it heavily relies on asyncio and may lack generalizability.
+
+👥 **CrewAI**: Designed for production use with a focus on agent delegation, but has limits on re-delegation and collects anonymized usage data.
+
+📊 **LangGraph**: Uses a graph representation for agent connections, enhancing efficiency but has a complex setup and is limited in broad tasks.
+
+💾 **AutoGPT**: Strong in memory and context management but depends on visual builders for application design.
+
+The article emphasizes the importance of a robust evaluation framework to ensure effective functioning and continuous improvement of these multi-agent systems. ⚖️
+_
+
+Playground UI and SDK support:
+
+- OpenAI's Agents SDK and Playground: https://openai.com/index/new-tools-for-building-agents/
+- Autogen: https://devblogs.microsoft.com/autogen/autogen-reimagined-launching-autogen-0-4/
 
 
 
-Others: 
-- n8n https://n8n.io/ai/ : workflows powered with AI Agents 
+Others:
+- n8n https://n8n.io/ai/ : workflows powered with AI Agents
 - crewAI : https://www.crewai.com open source library and enterprise product for building multi agent systems
 
 
