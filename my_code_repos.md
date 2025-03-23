@@ -6,7 +6,7 @@ This page is a handy reference to cool sample code repositories I've created to 
 
 | Repository Name | Description |  Link |
 |-----------------|-------------|------|
-| AI Inference Service | Demostrating the basics of interacting with an LLm, then how to use tools and function calling, this repo will demostrate the use of the Azure AI Inference SDK, OpenAI SDK, and it also connects to models published on github.com model catalog |  [Check it out](https://github.com/mutazag/misc/ai-inference-service) |
+| AI Inference Service | Demostrating the basics of interacting with an LLm, then how to use tools and function calling, this repo will demostrate the use of the Azure AI Inference SDK, OpenAI SDK, and it also connects to models published on github.com model catalog |  [Check it out](https://github.com/mutazag/misc/tree/master/ai-inference-service) |
 | AI Agents for beginners| Learn the concepts of AI Agents and frameworks like Autogen, semantic kernel and Azure AI Agent service | [Check it out](https://github.com/microsoft/ai-agents-for-beginners.git) |
 | *Repository 3* | How this solves a tricky problem |  [Check it out](#) |
 
