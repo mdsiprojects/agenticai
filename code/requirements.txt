@@ -5,6 +5,7 @@ python-dotenv~=1.0.1
 ipykernel~=6.29.5
 openai
 openai-agents
+openai-agents[viz]
 semantic-kernel~=1.21.3
 autogen-ext[azure]
 autogen-core~=0.4.5
