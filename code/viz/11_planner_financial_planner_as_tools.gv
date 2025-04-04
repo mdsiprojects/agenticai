@@ -1,0 +1,11 @@
+
+    digraph G {
+        graph [splines=true];
+        node [fontname="Arial"];
+        edge [penwidth=1.5];
+    "__start__" [label="__start__", shape=ellipse, style=filled, fillcolor=lightblue, width=0.5, height=0.3];"__end__" [label="__end__", shape=ellipse, style=filled, fillcolor=lightblue, width=0.5, height=0.3];"planner" [label="planner", shape=box, style=filled, fillcolor=lightyellow, width=1.5, height=0.8];"financial_analyst" [label="financial_analyst", shape=ellipse, style=filled, fillcolor=lightgreen, width=0.5, height=0.3];"news_analyst" [label="news_analyst", shape=ellipse, style=filled, fillcolor=lightgreen, width=0.5, height=0.3];"writer" [label="writer", shape=box, style=filled, style=rounded, fillcolor=lightyellow, width=1.5, height=0.8];"__start__" [label="__start__", shape=ellipse, style=filled, fillcolor=lightblue, width=0.5, height=0.3];"__end__" [label="__end__", shape=ellipse, style=filled, fillcolor=lightblue, width=0.5, height=0.3];"writer" [label="writer", shape=box, style=filled, fillcolor=lightyellow, width=1.5, height=0.8];"__start__" -> "planner";
+        "planner" -> "financial_analyst" [style=dotted, penwidth=1.5];
+        "financial_analyst" -> "planner" [style=dotted, penwidth=1.5];
+        "planner" -> "news_analyst" [style=dotted, penwidth=1.5];
+        "news_analyst" -> "planner" [style=dotted, penwidth=1.5];
+            "planner" -> "writer";"writer" -> "__end__";}

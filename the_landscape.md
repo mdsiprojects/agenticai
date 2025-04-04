@@ -36,3 +36,8 @@ Comparison between *AutoGen* and *CrewAI*:
 - Workflow Suitability: CrewAI is suited for structured, role-based research workflows, whereas AutoGen excels at adaptive, evolving prompts.
 - Dynamic Feedback: AutoGen can self-correct code errors through iterative learning, while CrewAI lacks this dynamic feedback loop.
 - Unique Features: CrewAI has a modular design and task delegation between agents, while AutoGen supports containerized code execution for safety.
+
+
+
+additional resources:
+- Large Language Model based Multi-Agents: A Survey of Progress and Challenges: https://arxiv.org/abs/2402.01680

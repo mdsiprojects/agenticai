@@ -9,6 +9,7 @@ https://www.youtube.com/watch?v=Qd6anWv0mv0
 Andrew Ng on Agentic (June 2024): https://www.youtube.com/watch?v=q1XFm21I-VQ
 
 - https://weaviate.io/blog/what-are-agentic-workflows?utm_source=linkedin&utm_medium=vs_social&utm_campaign=agents&utm_content=honeypot_post_9790000000
+- https://weaviate.io/blog/ai-agents
 
 Agentic Design Patterns:
 - Intro: https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/
