@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="368pt" height="302pt" viewBox="0.00 0.00 367.9 302.14">
+<g id="graph0" class="graph" transform="translate(4,298.1400146484375) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-298.14 363.9,-298.14 363.9,4 -4,4"/>
+<!-- __start__ -->
+<g id="node1" class="node" pointer-events="visible" data-name="__start__">
+
+<ellipse fill="lightblue" stroke="black" cx="95.18" cy="-276.61" rx="52.68" ry="17.57"/>
+<text text-anchor="middle" x="95.18" y="-272.41" font-family="Arial" font-size="14.00">__start__</text>
+</g>
+<!-- orchestrator_agent -->
+<g id="node3" class="node" pointer-events="visible" data-name="orchestrator_agent">
+
+<path fill="none" stroke="black" d="M149.7,-223.07C149.7,-223.07 40.66,-223.07 40.66,-223.07 34.66,-223.07 28.66,-217.07 28.66,-211.07 28.66,-211.07 28.66,-177.07 28.66,-177.07 28.66,-171.07 34.66,-165.07 40.66,-165.07 40.66,-165.07 149.7,-165.07 149.7,-165.07 155.7,-165.07 161.7,-171.07 161.7,-177.07 161.7,-177.07 161.7,-211.07 161.7,-211.07 161.7,-217.07 155.7,-223.07 149.7,-223.07"/>
+<text text-anchor="middle" x="95.18" y="-189.87" font-family="Arial" font-size="14.00">orchestrator_agent</text>
+</g>
+<!-- __start__&#45;&gt;orchestrator_agent -->
+<g id="edge1" class="edge" data-name="__start__-&gt;orchestrator_agent">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M95.18,-258.92C95.18,-252.05 95.18,-243.76 95.18,-235.47"/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="98.68,-235.75 95.18,-225.75 91.68,-235.75 98.68,-235.75"/>
+</g>
+<!-- __end__ -->
+<g id="node2" class="node" pointer-events="visible" data-name="__end__">
+
+<ellipse fill="lightblue" stroke="black" cx="284.18" cy="-17.54" rx="49.71" ry="17.57"/>
+<text text-anchor="middle" x="284.18" y="-13.34" font-family="Arial" font-size="14.00">__end__</text>
+</g>
+<!-- dad_jokes_generator_agent -->
+<g id="node4" class="node" pointer-events="visible" data-name="dad_jokes_generator_agent">
+
+<polygon fill="lightyellow" stroke="black" points="190.55,-129.07 -0.18,-129.07 -0.18,-71.07 190.55,-71.07 190.55,-129.07"/>
+<text text-anchor="middle" x="95.18" y="-95.87" font-family="Arial" font-size="14.00">dad_jokes_generator_agent</text>
+</g>
+<!-- orchestrator_agent&#45;&gt;dad_jokes_generator_agent -->
+<g id="edge2" class="edge" data-name="orchestrator_agent-&gt;dad_jokes_generator_agent">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M88.89,-164.72C88.49,-157.37 88.35,-149.32 88.48,-141.49"/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="91.97,-141.87 88.81,-131.76 84.97,-141.63 91.97,-141.87"/>
+</g>
+<!-- spanish_agent -->
+
+<!-- orchestrator_agent&#45;&gt;spanish_agent -->
+
+<!-- french_agent -->
+
+<!-- orchestrator_agent&#45;&gt;french_agent -->
+
+<g id="node5" class="node" pointer-events="visible" data-name="user_response_agent" data-comment="orchestrator_agent-&gt;french_agent">
+
+<polygon fill="lightyellow" stroke="black" points="360.12,-129.07 208.25,-129.07 208.25,-71.07 360.12,-71.07 360.12,-129.07"/>
+<text text-anchor="middle" x="284.18" y="-95.87" font-family="Arial" font-size="14.00">user_response_agent</text>
+</g><g id="edge4" class="edge" data-name="orchestrator_agent-&gt;user_response_agent" data-comment="orchestrator_agent-&gt;french_agent">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M153.69,-164.59C173.08,-155.15 194.85,-144.56 214.97,-134.76"/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="216.45,-137.93 223.91,-130.41 213.39,-131.64 216.45,-137.93"/>
+</g><g id="edge3" class="edge" data-name="dad_jokes_generator_agent-&gt;orchestrator_agent" data-comment="orchestrator_agent-&gt;french_agent">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M101.47,-129.49C101.88,-136.84 102.01,-144.89 101.89,-152.73"/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="98.4,-152.33 101.55,-162.45 105.39,-152.58 98.4,-152.33"/>
+</g><g id="edge5" class="edge" data-name="user_response_agent-&gt;__end__" data-comment="orchestrator_agent-&gt;french_agent">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M284.18,-70.9C284.18,-63.35 284.18,-55.17 284.18,-47.57"/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="287.68,-47.81 284.18,-37.81 280.68,-47.81 287.68,-47.81"/>
+</g></g>
+</svg>

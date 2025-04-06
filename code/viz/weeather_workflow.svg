@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="488pt" height="302pt" viewBox="0.00 0.00 487.62 302.14">
+<g id="graph0" class="graph" transform="translate(4,298.1400146484375) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-298.14 483.62,-298.14 483.62,4 -4,4" style=""/>
+<!-- __start__ -->
+<g id="node1" class="node" pointer-events="visible" data-name="__start__">
+
+<ellipse fill="lightblue" stroke="black" cx="113.67" cy="-276.61" rx="52.68" ry="17.57" style=""/>
+<text text-anchor="middle" x="113.67" y="-272.41" font-family="Arial" font-size="14.00" style="">__start__</text>
+</g>
+<!-- weather_agent -->
+<g id="node3" class="node" pointer-events="visible" data-name="weather_agent">
+
+<polygon fill="lightyellow" stroke="black" points="167.8,-223.07 59.55,-223.07 59.55,-165.07 167.8,-165.07 167.8,-223.07" style=""/>
+<text text-anchor="middle" x="113.67" y="-189.87" font-family="Arial" font-size="14.00" style="">weather_agent</text>
+</g>
+<!-- __start__&#45;&gt;weather_agent -->
+<g id="edge1" class="edge" data-name="__start__-&gt;weather_agent">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M113.67,-258.92C113.67,-252.05 113.67,-243.76 113.67,-235.47" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="117.17,-235.75 113.67,-225.75 110.17,-235.75 117.17,-235.75" style=""/>
+</g>
+<!-- __end__ -->
+<g id="node2" class="node" pointer-events="visible" data-name="__end__">
+
+<ellipse fill="lightblue" stroke="black" cx="362.67" cy="-17.54" rx="49.71" ry="17.57" style=""/>
+<text text-anchor="middle" x="362.67" y="-13.34" font-family="Arial" font-size="14.00" style="">__end__</text>
+</g>
+<!-- weather_data_collector -->
+<g id="node4" class="node" pointer-events="visible" data-name="weather_data_collector">
+
+<ellipse fill="lightgreen" stroke="black" cx="113.67" cy="-100.07" rx="113.85" ry="17.57" style=""/>
+<text text-anchor="middle" x="113.67" y="-95.87" font-family="Arial" font-size="14.00" style="">weather_data_collector</text>
+</g>
+<!-- weather_agent&#45;&gt;weather_data_collector -->
+<g id="edge2" class="edge" data-name="weather_agent-&gt;weather_data_collector">
+
+<path fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="1,5" d="M107.39,-164.72C106.78,-153.71 106.77,-141.12 107.35,-130.06" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="110.83,-130.47 108.13,-120.22 103.85,-129.91 110.83,-130.47" style=""/>
+</g>
+<!-- whether_report_summariser_agent -->
+<g id="node5" class="node" pointer-events="visible" data-name="whether_report_summariser_agent">
+
+<polygon fill="lightyellow" stroke="black" points="479.56,-129.07 245.78,-129.07 245.78,-71.07 479.56,-71.07 479.56,-129.07" style=""/>
+<text text-anchor="middle" x="362.67" y="-95.87" font-family="Arial" font-size="14.00" style="">whether_report_summariser_agent</text>
+</g>
+<!-- weather_agent&#45;&gt;whether_report_summariser_agent -->
+<g id="edge4" class="edge" data-name="weather_agent-&gt;whether_report_summariser_agent">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M168.01,-173C199.13,-161.5 238.93,-146.79 274.42,-133.68" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="275.48,-137.02 283.65,-130.27 273.06,-130.45 275.48,-137.02" style=""/>
+</g>
+<!-- weather_data_collector&#45;&gt;weather_agent -->
+<g id="edge3" class="edge" data-name="weather_data_collector-&gt;weather_agent">
+
+<path fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="1,5" d="M119.04,-117.96C120.13,-127.76 120.58,-140.55 120.38,-152.79" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="116.89,-152.33 120.04,-162.45 123.89,-152.58 116.89,-152.33" style=""/>
+</g>
+<!-- whether_report_summariser_agent&#45;&gt;__end__ -->
+<g id="edge5" class="edge" data-name="whether_report_summariser_agent-&gt;__end__">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M362.67,-70.9C362.67,-63.35 362.67,-55.17 362.67,-47.57" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="366.17,-47.81 362.67,-37.81 359.17,-47.81 366.17,-47.81" style=""/>
+</g>
+</g>
+</svg>

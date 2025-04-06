@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="464pt" height="302pt" viewBox="0.00 0.00 463.51 302.14">
+<g id="graph0" class="graph" transform="translate(4,298.1400146484375) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-298.14 459.51,-298.14 459.51,4 -4,4" style=""/>
+<!-- __start__ -->
+<g id="node1" class="node" pointer-events="visible" data-name="__start__">
+
+<ellipse fill="lightblue" stroke="black" cx="258.51" cy="-276.61" rx="52.68" ry="17.57" style=""/>
+<text text-anchor="middle" x="258.51" y="-272.41" font-family="Arial" font-size="14.00" style="">__start__</text>
+</g>
+<!-- planner -->
+<g id="node3" class="node" pointer-events="visible" data-name="planner">
+
+<polygon fill="lightyellow" stroke="black" points="312.51,-223.07 204.51,-223.07 204.51,-165.07 312.51,-165.07 312.51,-223.07" style=""/>
+<text text-anchor="middle" x="258.51" y="-189.87" font-family="Arial" font-size="14.00" style="">planner</text>
+</g>
+<!-- __start__&#45;&gt;planner -->
+<g id="edge1" class="edge" data-name="__start__-&gt;planner">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M258.51,-258.92C258.51,-252.05 258.51,-243.76 258.51,-235.47" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="262.01,-235.75 258.51,-225.75 255.01,-235.75 262.01,-235.75" style=""/>
+</g>
+<!-- __end__ -->
+<g id="node2" class="node" pointer-events="visible" data-name="__end__">
+
+<ellipse fill="lightblue" stroke="black" cx="401.51" cy="-17.54" rx="49.71" ry="17.57" style=""/>
+<text text-anchor="middle" x="401.51" y="-13.34" font-family="Arial" font-size="14.00" style="">__end__</text>
+</g>
+<!-- financial_analyst -->
+<g id="node4" class="node" pointer-events="visible" data-name="financial_analyst">
+
+<ellipse fill="lightgreen" stroke="black" cx="84.51" cy="-100.07" rx="84.51" ry="17.57" style=""/>
+<text text-anchor="middle" x="84.51" y="-95.87" font-family="Arial" font-size="14.00" style="">financial_analyst</text>
+</g>
+<!-- planner&#45;&gt;financial_analyst -->
+<g id="edge2" class="edge" data-name="planner-&gt;financial_analyst">
+
+<path fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="1,5" d="M204.39,-167.69C176.94,-153.67 144.41,-136.42 120.12,-122.99" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="122,-120.04 111.57,-118.22 118.59,-126.15 122,-120.04" style=""/>
+</g>
+<!-- news_analyst -->
+<g id="node5" class="node" pointer-events="visible" data-name="news_analyst">
+
+<ellipse fill="lightgreen" stroke="black" cx="258.51" cy="-100.07" rx="71.09" ry="17.57" style=""/>
+<text text-anchor="middle" x="258.51" y="-95.87" font-family="Arial" font-size="14.00" style="">news_analyst</text>
+</g>
+<!-- planner&#45;&gt;news_analyst -->
+<g id="edge4" class="edge" data-name="planner-&gt;news_analyst">
+
+<path fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="1,5" d="M252.22,-164.72C251.61,-153.71 251.6,-141.12 252.18,-130.06" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="255.66,-130.47 252.96,-120.22 248.68,-129.91 255.66,-130.47" style=""/>
+</g>
+<!-- writer -->
+<g id="node6" class="node" pointer-events="visible" data-name="writer">
+
+<polygon fill="lightyellow" stroke="black" points="455.51,-129.07 347.51,-129.07 347.51,-71.07 455.51,-71.07 455.51,-129.07" style=""/>
+<text text-anchor="middle" x="401.51" y="-95.87" font-family="Arial" font-size="14.00" style="">writer</text>
+</g>
+<!-- planner&#45;&gt;writer -->
+<g id="edge6" class="edge" data-name="planner-&gt;writer">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M302.58,-164.72C316.71,-155.62 332.53,-145.45 347.31,-135.94" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="348.91,-139.07 355.42,-130.72 345.12,-133.19 348.91,-139.07" style=""/>
+</g>
+<!-- financial_analyst&#45;&gt;planner -->
+<g id="edge3" class="edge" data-name="financial_analyst-&gt;planner">
+
+<path fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="1,5" d="M118.87,-116.49C142.2,-128.08 173.53,-144.41 200.63,-159.01" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="198.71,-161.95 209.17,-163.64 202.05,-155.8 198.71,-161.95" style=""/>
+</g>
+<!-- news_analyst&#45;&gt;planner -->
+<g id="edge5" class="edge" data-name="news_analyst-&gt;planner">
+
+<path fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="1,5" d="M263.87,-117.96C264.96,-127.76 265.41,-140.55 265.21,-152.79" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="261.72,-152.33 264.87,-162.45 268.72,-152.58 261.72,-152.33" style=""/>
+</g>
+<!-- writer&#45;&gt;__end__ -->
+<g id="edge7" class="edge" data-name="writer-&gt;__end__">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M401.51,-70.9C401.51,-63.35 401.51,-55.17 401.51,-47.57" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="405.01,-47.81 401.51,-37.81 398.01,-47.81 405.01,-47.81" style=""/>
+</g>
+</g>
+</svg>

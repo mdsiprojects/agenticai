@@ -1,0 +1,73 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="542pt" height="208pt" viewBox="0.00 0.00 541.92 208.14">
+<g id="graph0" class="graph" transform="translate(4,204.13999938964844) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-204.14 537.92,-204.14 537.92,4 -4,4" style=""/>
+<!-- __start__ -->
+<g id="node1" class="node" pointer-events="visible" data-name="__start__">
+
+<ellipse fill="lightblue" stroke="black" cx="220.85" cy="-182.61" rx="52.68" ry="17.57" style=""/>
+<text text-anchor="middle" x="220.85" y="-178.41" font-family="Arial" font-size="14.00" style="">__start__</text>
+</g>
+<!-- orchestrator_agent -->
+<g id="node3" class="node" pointer-events="visible" data-name="orchestrator_agent">
+
+<polygon fill="lightyellow" stroke="black" points="287.37,-129.07 154.34,-129.07 154.34,-71.07 287.37,-71.07 287.37,-129.07" style=""/>
+<text text-anchor="middle" x="220.85" y="-95.87" font-family="Arial" font-size="14.00" style="">orchestrator_agent</text>
+</g>
+<!-- __start__&#45;&gt;orchestrator_agent -->
+<g id="edge1" class="edge" data-name="__start__-&gt;orchestrator_agent">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M220.85,-164.92C220.85,-158.05 220.85,-149.76 220.85,-141.47" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="224.35,-141.75 220.85,-131.75 217.35,-141.75 224.35,-141.75" style=""/>
+</g>
+<!-- __end__ -->
+<g id="node2" class="node" pointer-events="visible" data-name="__end__">
+
+<ellipse fill="lightblue" stroke="black" cx="49.85" cy="-17.54" rx="49.71" ry="17.57" style=""/>
+<text text-anchor="middle" x="49.85" y="-13.34" font-family="Arial" font-size="14.00" style="">__end__</text>
+</g>
+<!-- orchestrator_agent&#45;&gt;__end__ -->
+<g id="edge6" class="edge" data-name="orchestrator_agent-&gt;__end__">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M160.56,-70.68C137.2,-59.67 111.07,-47.37 90.07,-37.48" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="91.57,-34.32 81.04,-33.22 88.59,-40.65 91.57,-34.32" style=""/>
+</g>
+<!-- translate_to_spanish -->
+<g id="node4" class="node" pointer-events="visible" data-name="translate_to_spanish">
+
+<ellipse fill="lightgreen" stroke="black" cx="220.85" cy="-17.54" rx="102.84" ry="17.57" style=""/>
+<text text-anchor="middle" x="220.85" y="-13.34" font-family="Arial" font-size="14.00" style="">translate_to_spanish</text>
+</g>
+<!-- orchestrator_agent&#45;&gt;translate_to_spanish -->
+<g id="edge2" class="edge" data-name="orchestrator_agent-&gt;translate_to_spanish">
+
+<path fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="1,5" d="M214.38,-70.9C214.02,-63.35 214.01,-55.17 214.34,-47.57" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="217.82,-48.03 215.06,-37.8 210.84,-47.52 217.82,-48.03" style=""/>
+</g>
+<!-- translate_to_french -->
+<g id="node5" class="node" pointer-events="visible" data-name="translate_to_french">
+
+<ellipse fill="lightgreen" stroke="black" cx="437.85" cy="-17.54" rx="96.13" ry="17.57" style=""/>
+<text text-anchor="middle" x="437.85" y="-13.34" font-family="Arial" font-size="14.00" style="">translate_to_french</text>
+</g>
+<!-- orchestrator_agent&#45;&gt;translate_to_french -->
+<g id="edge4" class="edge" data-name="orchestrator_agent-&gt;translate_to_french">
+
+<path fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="1,5" d="M287.6,-71.92C317.5,-60.6 352.38,-47.73 381.03,-37.46" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="382.1,-40.8 390.35,-34.14 379.75,-34.2 382.1,-40.8" style=""/>
+</g>
+<!-- translate_to_spanish&#45;&gt;orchestrator_agent -->
+<g id="edge3" class="edge" data-name="translate_to_spanish-&gt;orchestrator_agent">
+
+<path fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="1,5" d="M226.48,-35.54C227.22,-42.35 227.6,-50.51 227.6,-58.68" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="224.1,-58.56 227.38,-68.64 231.1,-58.72 224.1,-58.56" style=""/>
+</g>
+<!-- translate_to_french&#45;&gt;orchestrator_agent -->
+<g id="edge5" class="edge" data-name="translate_to_french-&gt;orchestrator_agent">
+
+<path fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="1,5" d="M401.17,-34.18C373.2,-45.05 333.76,-59.8 298.87,-72.49" style=""/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="298.06,-69.06 289.85,-75.76 300.45,-75.64 298.06,-69.06" style=""/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,73 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="494pt" height="208pt" viewBox="0.00 0.00 493.57 208.14">
+<g id="graph0" class="graph" transform="translate(4,204.13999938964844) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-204.14 489.57,-204.14 489.57,4 -4,4"/>
+<!-- __start__ -->
+<g id="node1" class="node" pointer-events="visible" data-name="__start__">
+
+<ellipse fill="lightblue" stroke="black" cx="205.85" cy="-182.61" rx="52.68" ry="17.57"/>
+<text text-anchor="middle" x="205.85" y="-178.41" font-family="Arial" font-size="14.00">__start__</text>
+</g>
+<!-- reflection_orchestrator_agent -->
+<g id="node3" class="node" pointer-events="visible" data-name="reflection_orchestrator_agent">
+
+<polygon fill="lightyellow" stroke="black" points="304.96,-129.07 106.74,-129.07 106.74,-71.07 304.96,-71.07 304.96,-129.07"/>
+<text text-anchor="middle" x="205.85" y="-95.87" font-family="Arial" font-size="14.00">reflection_orchestrator_agent</text>
+</g>
+<!-- __start__&#45;&gt;reflection_orchestrator_agent -->
+<g id="edge1" class="edge" data-name="__start__-&gt;reflection_orchestrator_agent">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M205.85,-164.92C205.85,-158.05 205.85,-149.76 205.85,-141.47"/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="209.35,-141.75 205.85,-131.75 202.35,-141.75 209.35,-141.75"/>
+</g>
+<!-- __end__ -->
+<g id="node2" class="node" pointer-events="visible" data-name="__end__">
+
+<ellipse fill="lightblue" stroke="black" cx="49.85" cy="-17.54" rx="49.71" ry="17.57"/>
+<text text-anchor="middle" x="49.85" y="-13.34" font-family="Arial" font-size="14.00">__end__</text>
+</g>
+<!-- reflection_orchestrator_agent&#45;&gt;__end__ -->
+<g id="edge6" class="edge" data-name="reflection_orchestrator_agent-&gt;__end__">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M150.85,-70.68C129.98,-59.9 106.69,-47.88 87.74,-38.1"/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="89.36,-34.99 78.87,-33.52 86.15,-41.21 89.36,-34.99"/>
+</g>
+<!-- outline_generator -->
+<g id="node4" class="node" pointer-events="visible" data-name="outline_generator">
+
+<ellipse fill="lightgreen" stroke="black" cx="205.85" cy="-17.54" rx="88.24" ry="17.57"/>
+<text text-anchor="middle" x="205.85" y="-13.34" font-family="Arial" font-size="14.00">outline_generator</text>
+</g>
+<!-- reflection_orchestrator_agent&#45;&gt;outline_generator -->
+<g id="edge2" class="edge" data-name="reflection_orchestrator_agent-&gt;outline_generator">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M199.38,-70.9C199.02,-63.35 199.01,-55.17 199.34,-47.57" stroke-dasharray="1,5"/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="202.82,-48.03 200.06,-37.8 195.84,-47.52 202.82,-48.03"/>
+</g>
+<!-- outline_evaluator -->
+<g id="node5" class="node" pointer-events="visible" data-name="outline_evaluator">
+
+<ellipse fill="lightgreen" stroke="black" cx="398.85" cy="-17.54" rx="86.93" ry="17.57"/>
+<text text-anchor="middle" x="398.85" y="-13.34" font-family="Arial" font-size="14.00">outline_evaluator</text>
+</g>
+<!-- reflection_orchestrator_agent&#45;&gt;outline_evaluator -->
+<g id="edge4" class="edge" data-name="reflection_orchestrator_agent-&gt;outline_evaluator">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M267.42,-70.68C292.96,-59.81 322.25,-47.67 346.72,-37.85" stroke-dasharray="1,5"/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="347.84,-41.16 355.84,-34.21 345.25,-34.66 347.84,-41.16"/>
+</g>
+<!-- outline_generator&#45;&gt;reflection_orchestrator_agent -->
+<g id="edge3" class="edge" data-name="outline_generator-&gt;reflection_orchestrator_agent">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M211.48,-35.54C212.22,-42.35 212.6,-50.51 212.6,-58.68" stroke-dasharray="1,5"/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="209.1,-58.56 212.38,-68.64 216.1,-58.72 209.1,-58.56"/>
+</g>
+<!-- outline_evaluator&#45;&gt;reflection_orchestrator_agent -->
+<g id="edge5" class="edge" data-name="outline_evaluator-&gt;reflection_orchestrator_agent">
+
+<path fill="none" stroke="black" stroke-width="1.5" d="M366.62,-34.28C346.01,-43.33 318.31,-55.05 291.69,-66.03" stroke-dasharray="1,5"/>
+<polygon fill="black" stroke="black" stroke-width="1.5" points="290.4,-62.78 282.48,-69.82 293.06,-69.25 290.4,-62.78"/>
+</g>
+</g>
+</svg>

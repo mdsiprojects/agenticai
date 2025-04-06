@@ -1,0 +1,9 @@
+
+    digraph G {
+        graph [splines=true];
+        node [fontname="Arial"];
+        edge [penwidth=1.5];
+    "__start__" [label="__start__", shape=ellipse, style=filled, fillcolor=lightblue, width=0.5, height=0.3];"__end__" [label="__end__", shape=ellipse, style=filled, fillcolor=lightblue, width=0.5, height=0.3];"weather_agent" [label="weather_agent", shape=box, style=filled, fillcolor=lightyellow, width=1.5, height=0.8];"weather_data_collector" [label="weather_data_collector", shape=ellipse, style=filled, fillcolor=lightgreen, width=0.5, height=0.3];"whether_report_summariser_agent" [label="whether_report_summariser_agent", shape=box, style=filled, style=rounded, fillcolor=lightyellow, width=1.5, height=0.8];"__start__" [label="__start__", shape=ellipse, style=filled, fillcolor=lightblue, width=0.5, height=0.3];"__end__" [label="__end__", shape=ellipse, style=filled, fillcolor=lightblue, width=0.5, height=0.3];"whether_report_summariser_agent" [label="whether_report_summariser_agent", shape=box, style=filled, fillcolor=lightyellow, width=1.5, height=0.8];"__start__" -> "weather_agent";
+        "weather_agent" -> "weather_data_collector" [style=dotted, penwidth=1.5];
+        "weather_data_collector" -> "weather_agent" [style=dotted, penwidth=1.5];
+            "weather_agent" -> "whether_report_summariser_agent";"whether_report_summariser_agent" -> "__end__";}
