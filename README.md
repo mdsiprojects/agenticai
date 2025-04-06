@@ -8,6 +8,9 @@ https://www.youtube.com/watch?v=Qd6anWv0mv0
 
 Andrew Ng on Agentic (June 2024): https://www.youtube.com/watch?v=q1XFm21I-VQ
 
+
+[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://www.youtube.com/embed/q1XFm21I-VQ?si=1dpdJOLxwdBAlGHW&amp;start=829)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q1XFm21I-VQ?si=1dpdJOLxwdBAlGHW&amp;start=829" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - https://weaviate.io/blog/what-are-agentic-workflows?utm_source=linkedin&utm_medium=vs_social&utm_campaign=agents&utm_content=honeypot_post_9790000000
