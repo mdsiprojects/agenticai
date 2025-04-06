@@ -1,5 +1,6 @@
 from pydantic import BaseModel, Field
 from agents import function_tool
+import requests
 
 import random
 
@@ -17,10 +18,11 @@ class CurrentTime(BaseModel):
 
 @function_tool
 def get_weather(city: str) -> Weather:
-    print(f"[debug] getting weather for {city}")
-    temperature = f"{random.randint(-10, 50)}C"
-    conditions = random.choice(["Sunny", "Windy", "Rainy", "Cloudy"])
-    return Weather(city=city, temperature=temperature, conditions=conditions)
+    print(f"[debug-server] get_current_weather({city})")
+
+    endpoint = "https://wttr.in"
+    response = requests.get(f"{endpoint}/{city}")
+    return response.text
 
 
 @function_tool
