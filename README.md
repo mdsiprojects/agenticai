@@ -1,12 +1,16 @@
 # agenticai
 
+[![Watch the video](https://img.youtube.com/vi/q1XFm21I-VQ/maxresdefault.jpg)](https://youtu.be/q1XFm21I-VQ)
 
+### [Watch this video on YouTube](https://youtu.be/q1XFm21I-VQ)
 
 ## References
 
 https://www.youtube.com/watch?v=Qd6anWv0mv0
 
 Andrew Ng on Agentic (June 2024): https://www.youtube.com/watch?v=q1XFm21I-VQ
+
+<video src="[path/to/video.mp4](https://www.youtube.com/embed/q1XFm21I-VQ?si=1dpdJOLxwdBAlGHW&amp;start=829)" width="320" height="240" controls></video>
 
 
 [![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://www.youtube.com/embed/q1XFm21I-VQ?si=1dpdJOLxwdBAlGHW&amp;start=829)
