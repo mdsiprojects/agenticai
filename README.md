@@ -1,8 +1,9 @@
 # AI Agents
 
 Andrew Ng on Agentic (June 2024):
-[![Watch the video](https://img.youtube.com/vi/q1XFm21I-VQ/maxresdefault.jpg)]([https://youtu.be/q1XFm21I-VQ](https://youtu.be/q1XFm21I-VQ?si=_ZoKVEpluOm3g5Pj&t=827))
+[![Watch the video](https://img.youtube.com/vi/q1XFm21I-VQ/maxresdefault.jpg)](https://youtu.be/q1XFm21I-VQ)
 
+### [Watch this video on YouTube](https://youtu.be/q1XFm21I-VQ)
 
 ### Presentation file: [AI Agents](/UTSMDSI-AI%20Agents-07.04.2025.pdf)
 
